@@ -1,4 +1,4 @@
-import os
+import typingportomutil
 import time
 import logging
 import random
@@ -6,8 +6,7 @@ import shlex
 import shutil
 import asyncio
 import signal
-import psutil
-from typing import Tuple
+import typing import Tuple
 from os.path import join
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
