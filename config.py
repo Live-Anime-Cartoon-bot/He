@@ -11,7 +11,7 @@ BOT_TOKEN = environ.get("8191916199:AAELZ8-fshGPId9LfTTj6oRcPz31quRu0MU", "")
 AUTH_USERS = list(map(int, environ.get("AUTH_USERS", "12345678 87654321").split()))
 
 # 👑 Owner/Admin ID - Multiple owners supported
-OWNER_ID = list(map(int, environ.get("", "").split()))
+OWNER_ID = list(map(int, environ.get("5856009289", "").split()))
 
 # 📁 Download Directory - Where temporary files are stored
 DOWNLOAD_DIRECTORY = environ.get("DOWNLOAD_DIRECTORY", "./downloads")
@@ -20,7 +20,7 @@ DOWNLOAD_DIRECTORY = environ.get("DOWNLOAD_DIRECTORY", "./downloads")
 DEFAULT_METADATA = environ.get("DEFAULT_METADATA", "")
 
 # 📄 Default Filename - Used when no filename is provided
-DEFAULT_FILENAME = environ.get("DEFAULT_FILENAME", "Toonix")
+DEFAULT_FILENAME = environ.get("DEFAULT_FILENAME", "Ls")
 
 # 🌍 Timezone Configuration
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
