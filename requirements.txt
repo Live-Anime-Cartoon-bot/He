@@ -5,9 +5,10 @@ pytz
 psutil
 requests
 yt-dlp
-curl_cffi
+curl
 brotli
 hachoir
 pycryptodome
 python-dotenv
 ffmpeg-python
+requests
