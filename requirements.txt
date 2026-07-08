@@ -5,7 +5,7 @@ pytz
 psutil
 requests
 yt-dlp
-curl
+curl_cffi
 brotli
 hachoir
 pycryptodome
