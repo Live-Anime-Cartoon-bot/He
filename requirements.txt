@@ -1,8 +1,0 @@
-pyrogram
-tgcrypto
-requests
-ffmpeg-python
-aiohttp
-aiofiles
-python-dotenv
-pytz
