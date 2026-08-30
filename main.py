@@ -48,7 +48,7 @@ async def start(client, message):
     kb = InlineKeyboardMarkup([
         [InlineKeyboardButton("📖 Help", callback_data="help")],
         [InlineKeyboardButton("💠 Plans", callback_data="plan")],
-        [InlineKeyboardButton("📢 Channel", url="https://t.me/ToonixIndia")]
+        [InlineKeyboardButton("📢 Channel", url="https://t.me/LittlesinghamMovie_Bot")]
     ])
     await message.reply_text(
         "🎬 **Welcome to Video Recorder Bot!**\n\n"
@@ -228,7 +228,7 @@ async def help_cmd(client, message):
         "✅ Multi-stream support\n"
         "✅ Emergency stop with partial video upload\n\n"
         
-        "👨‍💻 _Bot maintained by @TEMohanish_",
+        "👨‍💻 _Bot maintained by @LittlesinghamMovie_Bot",
         disable_web_page_preview=True
     )
 
