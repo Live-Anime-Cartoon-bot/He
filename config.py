@@ -20,7 +20,7 @@ DOWNLOAD_DIRECTORY = environ.get("DOWNLOAD_DIRECTORY", "./downloads")
 DEFAULT_METADATA = environ.get("DEFAULT_METADATA", "")
 
 # 📄 Default Filename - Used when no filename is provided
-DEFAULT_FILENAME = environ.get("DEFAULT_FILENAME", "Toonix")
+DEFAULT_FILENAME = environ.get("DEFAULT_FILENAME", "LS")
 
 # 🌍 Timezone Configuration
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
