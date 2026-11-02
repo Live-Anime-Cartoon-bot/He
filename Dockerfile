@@ -22,4 +22,4 @@ COPY . /app
 RUN mkdir -p /app/bot/data /app/bot/downloads
 VOLUME ["/app/bot/data", "/app/bot/downloads"]
 
-CMD ["python", "D5_DriveUpload_Fixed.py"]
+CMD ["python", "bot.py"]
