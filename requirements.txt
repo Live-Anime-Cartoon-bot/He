@@ -1,0 +1,16 @@
+# Telegram bot
+Pyrogram==2.0.106
+TgCrypto>=1.2.5
+
+# HTTP, system and media utilities
+requests>=2.32.0
+psutil>=6.1.0
+pytz>=2024.1
+yt-dlp>=2025.1.15
+hachoir>=3.3.0
+python-dotenv>=1.0.1
+
+# Google Drive API / OAuth
+google-api-python-client>=2.150.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.1
