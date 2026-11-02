@@ -1,6 +1,7 @@
 # Telegram bot
 Pyrogram==2.0.106
 TgCrypto>=1.2.5
+ffmpeg-python
 
 # HTTP, system and media utilities
 requests>=2.32.0
